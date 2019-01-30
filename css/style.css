@@ -33,3 +33,6 @@ border-spacing: 0;
 .header{
 background-color: rgb(22,22,22); 
 }
+.logo{
+	margin: 0 auto 0 auto ; 
+}
