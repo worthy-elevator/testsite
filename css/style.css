@@ -30,3 +30,8 @@ table {
 border-collapse: collapse; 
 border-spacing: 0; 
 }
+.header{
+margin-left: 75%;
+	padding: 15px;
+	background: #E9F5FE;
+}
