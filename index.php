@@ -16,7 +16,11 @@
 					<div class="button-setting">
 
   						 <ul type="none">
-   						 <li><a href="1.html">Home</a></li>
+   						 <li ><a href="1.html">Home</a>
+   						 		<div class="home-img" ">
+        						<img class="home-pic" src="1.jpg"  >
+  							  </div>
+   						 </li>
    						 <li><a href="1.html">Work</a></li>
    						 <li><a href="1.html">About</a></li>
    						 <li><a href="1.html">Blog</a></li>
