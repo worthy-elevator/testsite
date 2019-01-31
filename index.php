@@ -16,10 +16,9 @@
 					<div class="button-setting">
 
   						 <ul type="none">
-   						 <li ><a href="1.html">Home</a>
-   						 		<div class="home-img" ">
+   						 <li ><a href="1.html"> <div class="home-img" style="display: inline;">
         						<img class="home-pic" src="1.jpg"  >
-  							  </div>
+  							  </div>Home</a>
    						 </li>
    						 <li><a href="1.html">Work</a></li>
    						 <li><a href="1.html">About</a></li>
