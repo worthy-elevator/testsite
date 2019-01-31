@@ -4,7 +4,7 @@
 </head>
 <body>
 	<div class="header">
-	gg
+	
 		<div class="logo">
 			<img src="1.jpg" width="100%"> 
 			
@@ -13,43 +13,16 @@
 			<div class ="buttons" >
 				<div class= "menu-button">
 					
-					<div class = "button-func" >
-						<a href="1.html">Обо Мне</a>
+					<div class="button-setting">
+
+  						 <ul type="none">
+   						 <li><a href="1.html">Home</a></li>
+   						 <li><a href="1.html">Work</a></li>
+   						 <li><a href="1.html">About</a></li>
+   						 <li><a href="1.html">Blog</a></li>
+   						 <li style="border-right: 1px solid #ADC0CE"><a href="1.html">Contact</a></li>
+  						</ui>
 					</div>
-
-					<div class ="line" >
-					</div>
-
-					<div class ="button-func" >
-						<a href="1.html">Мои Работы</a>
-					</div>
-
-					<div class ="line" >
-						
-					</div>
-
-					<div class ="button-func" >
-						<a href="1.html">Услуги</a>
-					</div>
-
-					<div class = "line" >
-					</div>
-
-					<div class = "button-func" >
-						<a href="1.html">Продукция</a>
-					</div>
-
-					<div class ="line" >
-					</div>
-
-					<div class ="button-func" >
-						<a href="1.html">Запись</a>
-					</div>
-
-					
-
-
-				</div>
 				
 
 				<div class="menu-button-set">
@@ -66,5 +39,5 @@
 			
 		</div>
 	</div>
-<h1>a</h1>
+
 </body>

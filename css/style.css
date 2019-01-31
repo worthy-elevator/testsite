@@ -37,19 +37,29 @@ background-color: rgb(22,22,22);
 	width: 10%;
 	margin: 0 auto 0 auto ; 
 }
-.button-func{
-	display:inline;
-	text-align: center;
-	background-color: rgb(245,210,122);
-	width: 10%;
-	position:absolute;
-
-
+.button-setting{
+	margin: 0 auto 0 auto ;
+	width: 505px ;
+	
 }
+.button-setting ul {
 
-.menu-button{
-	border: 2px solid black;
+  overflow: hidden;
+  padding: 0;
 }
+.button-setting li {
+  float: left;
+}
+.button-setting a {
+  display: block;
+  padding: 0.5em;
+  border-left: 1px solid #ADC0CE;
+
+  
+  color: #29838C;
+  font-size: 29px
+}
+.button-setting a:hover {background: #ADC0CE}
 
 a {
    all: unset;
@@ -57,4 +67,9 @@ a {
  
 a:hover {
     color: #800000; 
+}
+.menu-button {
+	
+margin: 0 auto 0 auto ; 
+background: #D4E7EE;
 }
