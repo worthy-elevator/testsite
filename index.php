@@ -26,15 +26,22 @@
    						 <li style="border-right: 1px solid #ADC0CE"><a href="1.html">Contact</a></li>
   						</ui>
 					</div>
-				
-
-				<div class="menu-button-set">
-					
-				</div>
-
 
 				<div class = "menu-fall">
-					
+					<div class="menu-icon" style="width: 150px;margin: 0 auto;"><button onclick="showMenu()"> МЕНЮ ЕПТА</button></div>
+					<div id="menu-drop" class="button-setting" style="display: none;">
+
+  						 <ul type="none">
+   						 <li ><a href="1.html"> <div class="home-img" style="display: inline;">
+        						<img class="home-pic" src="1.jpg"  >
+  							  </div>Home</a>
+   						 </li>
+   						 <li><a href="1.html">Work</a></li>
+   						 <li><a href="1.html">About</a></li>
+   						 <li><a href="1.html">Blog</a></li>
+   						 <li style="border-right: 1px solid #ADC0CE"><a href="1.html">Contact</a></li>
+  						</ui>
+					</div>
 				</div>
 				
 			</div>
@@ -42,5 +49,16 @@
 			
 		</div>
 	</div>
-
+<script type="text/javascript">
+	function showMenu() {
+    document.getElementById("menu-drop").style.display = "";
+    if ( document.getElementById("menu-drop").style.display =="none") 
+    {
+    	document.getElementById("menu-drop").style.display = "";
+    }else
+    {
+    	document.getElementById("menu-drop").style.display = "none";
+    }
+}
+</script>
 </body>
