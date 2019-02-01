@@ -36,7 +36,7 @@
 						</a> 
 <!--						<button onclick="showMenu()"> МЕНЮ ЕПТА</button></div>
 						<button onclick="hideMenu()"> МЕНЮ ЕПТА</button>--></div>
-					<div id="menu-drop" class="button-setting" style="display: none;">
+					<div id="menu-drop" class="button-setting-1" style="display: none;">
 
   						 <ul type="none">
    						 <li ><a href="1.html"> <div class="home-img" style="display: inline;">
