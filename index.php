@@ -28,7 +28,14 @@
 					</div>
 
 				<div class = "menu-fall">
-					<div class="menu-icon" style="width: 150px;margin: 0 auto;"><button onclick="showMenu()"> МЕНЮ ЕПТА</button></div>
+					<div class="menu-icon" style="width: 150px;margin: 0 auto;" onclick="showMenu()">
+						<a href="#">
+							<label>
+								прикинь, это менюшка
+							</label>
+						</a> 
+<!--						<button onclick="showMenu()"> МЕНЮ ЕПТА</button></div>
+						<button onclick="hideMenu()"> МЕНЮ ЕПТА</button>--></div>
 					<div id="menu-drop" class="button-setting" style="display: none;">
 
   						 <ul type="none">
@@ -51,7 +58,7 @@
 	</div>
 <script type="text/javascript">
 	function showMenu() {
-    document.getElementById("menu-drop").style.display = "";
+   // document.getElementById("menu-drop").style.display = "";
     if ( document.getElementById("menu-drop").style.display =="none") 
     {
     	document.getElementById("menu-drop").style.display = "";
@@ -59,6 +66,7 @@
     {
     	document.getElementById("menu-drop").style.display = "none";
     }
+
 }
 </script>
 </body>
