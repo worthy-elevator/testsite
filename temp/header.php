@@ -1,6 +1,13 @@
 <?PHP
 function menu(){
 	echo'
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+  <link href="css/style-pc.css" type="text/css" rel="stylesheet">
+</head>
+<body>
 	<div class="header">
 	
 		<div class="logo">
@@ -10,12 +17,9 @@ function menu(){
 		<div class="top-menu">
 			<div class ="buttons" >
 				<div class= "menu-button">
-					<div class="menu-icon" style="width: 43px; margin: 0 auto;" onclick="showMenu()">
-
-					</div>
 					<div class="button-setting" id="menu">
 
-  						 <ul type="none" class="none-copy">
+  						 <ul type="none" id="none-copy">
    						 <li ><a href="1.html"> <div class="home-img" style="display: inline;">
         						<img class="home-pic" src="1.jpg"  >
   							  </div>Home</a>
@@ -35,7 +39,7 @@ function menu2(){
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 	<div class="header">
@@ -47,7 +51,7 @@ function menu2(){
 		<div class="top-menu">
 			<div class ="buttons" >
 				<div class= "menu-button">
-					<div class="menu-icon" style="width: 43px; margin: 0 auto;" onclick="showMenu()">
+					<div class="menu-icon" style="" onclick="showMenu()">
 	<div class="container">
 
 
@@ -64,10 +68,10 @@ function menu2(){
 
     </div>
 					</div>
-					<div class="button-setting" id="menu" style="display:none; width:100%">
+					<div class="button-setting" id="menu">
 
-  						 <ul type="none">
-   						 <li ><a href="1.html"> <div class="home-img" style="display: inline;">
+  						 <ul type="none" class="none-copy">
+   						 <li ><a href="1.html"> <div class="home-img">
         						<img class="home-pic" src="1.jpg"  >
   							  </div>Home</a>
    						 </li>
