@@ -3,6 +3,10 @@
 	width: 525px; ;
 	
 }
+.button-setting li{
+  float: left;
+  
+}
 .button-setting ul {
 
   overflow: hidden;
