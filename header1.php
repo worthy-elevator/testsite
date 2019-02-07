@@ -15,7 +15,7 @@ function menu(){
 					</div>
 					<div class="button-setting" id="menu">
 
-  						 <ul type="none">
+  						 <ul type="none" class="none-copy">
    						 <li ><a href="1.html"> <div class="home-img" style="display: inline;">
         						<img class="home-pic" src="1.jpg"  >
   							  </div>Home</a>
