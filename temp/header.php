@@ -92,13 +92,12 @@ function menu2(){
 
 <script type="text/javascript">
 	function showMenu() {
-   // document.getElementById("menu-drop").style.display = "";
-    if ( document.getElementById("menu").style.display =="none") 
-    {
-    	document.getElementById("menu").style.display = "block";
-    }else
+    if ( document.getElementById("menu").style.display =="block") 
     {
     	document.getElementById("menu").style.display = "none";
+    }else
+    {
+    	document.getElementById("menu").style.display = "block";
     }
 
 }
