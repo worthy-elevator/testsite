@@ -64,7 +64,7 @@ function menu2(){
 
     </div>
 					</div>
-					<div class="button-setting" id="menu">
+					<div class="button-setting" id="menu" style="display:none; width:100%">
 
   						 <ul type="none">
    						 <li ><a href="1.html"> <div class="home-img" style="display: inline;">
