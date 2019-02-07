@@ -8,7 +8,7 @@
 	JDJGDKLF;SGJRL;THJ;
 	<?php
 include("header1.php");
-if(isMobile() {
+if(isMobile()) {
    menu2();
 }
 else menu();
