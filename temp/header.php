@@ -34,6 +34,7 @@ function menu(){
       </div>
     </div>
   </div>
+  </div>
 ';}
 
 function menu2(){
@@ -89,6 +90,7 @@ function menu2(){
 			
 		</div>
 	</div>
+  </div>
 
 
 
