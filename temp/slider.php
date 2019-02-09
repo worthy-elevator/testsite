@@ -17,7 +17,8 @@ function slider(){
         <div style="height: 250px; background: violet;">3</div>
       </div>
       <div class="slider__item">
-        <div style="height: 250px; background: coral;">4</div>
+        <div style="height: 250px; background: coral;   
+background-image: url(2.png)">4</div>
       </div>
     </div>
     <a class="slider__control slider__control_left" href="#" role="button"></a>
