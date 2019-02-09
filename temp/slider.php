@@ -5,7 +5,7 @@ function slider(){
   <link href="css/slider.css" rel="stylesheet">
   
 
-  <div class="slider">
+  <div class="slider" style="height:50vh; width:90vw; margin: 0 auto">
     <div class="slider__wrapper">
       <div class="slider__item">
         <div style="height: 250px; background: orange;">1</div>

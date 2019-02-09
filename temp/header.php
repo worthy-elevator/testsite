@@ -30,8 +30,10 @@ function menu(){
    						 <li style="border-right: 1px solid #ADC0CE"><a href="1.html">Contact</a></li>
   						</ul>
 					</div>			
-		</div>
-	</div>
+		    </div>
+      </div>
+    </div>
+  </div>
 ';}
 
 function menu2(){
